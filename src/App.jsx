@@ -1,7 +1,12 @@
 import React from "react";
+import Navbar from "./Components/Navbar";
 
 const App = () => {
-  return <div className=" text-indigo-700">App</div>;
+  return (
+    <>
+      <Navbar />
+    </>
+  );
 };
 
 export default App;
