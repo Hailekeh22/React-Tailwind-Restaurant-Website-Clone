@@ -6,7 +6,7 @@ const Hero = () => {
     <div className=" min-h-[550px] sm:min-h-[600px] items-center bg-lightBlue flex justify-center">
       <div className="container pb-8 sm:pb-0">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-14">
-          <div className="flex flex-col justify-center gap-4 pt-12 sm:pt-0  ">
+          <div className="flex flex-col justify-center gap-4 pt-12 sm:pt-0 sm:items-center sm:text-center lg:items-start lg:text-left">
             <h1 className=" text-8xl font-cursive text-primary">
               Rice
               <span className=" text-3xl text-black">Bowl</span>
