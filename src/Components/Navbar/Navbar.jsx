@@ -73,7 +73,7 @@ const Navbar = () => {
                     <li key={item.id}>
                       <a
                         href={item.link}
-                        className=" w-full inline-block hover:bg-primary hover:text-white text-xl px-11 py-5 rounded-md"
+                        className=" w-full inline-block hover:bg-primary hover:text-white text-xl px-11 py-3 rounded-md"
                       >
                         {item.name}
                       </a>

@@ -12,6 +12,7 @@ export default {
     },
     fontFamily: {
       sans: ["poppins", "sans-serif"],
+      cursive: ["Playwrite DK Uloopet", "cursive"],
     },
     container: {
       center: true,
