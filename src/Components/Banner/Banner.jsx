@@ -6,7 +6,7 @@ const Banner = () => {
     <div>
       <div className=" container mt-4 ">
         <div className="grid grid-cols-1 sm:gri lg:grid-cols-2 gap-4 place-items-center place-content-center">
-          <div className="order-2 lg:order-1">
+          <div className="order-2 lg:order-1 shadow-1">
             <img src={banner} />
           </div>
           <div className="order-1 lg:order-2">

@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className=" min-h-[550px] sm:min-h-[600px] items-center bg-lightBlue flex justify-center">
       <div className="container pb-8 sm:pb-0">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-14">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
           <div className="flex flex-col justify-center gap-4 pt-12 sm:pt-0 sm:items-center sm:text-center lg:items-start lg:text-left">
             <h1 className=" text-8xl font-cursive text-primary">
               Rice
@@ -28,7 +28,7 @@ const Hero = () => {
           <div className=" min-h-[450px] flex  items-center justify-center relative order-1 sm:order-2">
             <img
               src={heroImg}
-              className="max-w-[450px] mx-auto sm:scale-125 shadow-1"
+              className="max-w-[420px] mx-auto sm:scale-125 shadow-1"
             ></img>
           </div>
         </div>
